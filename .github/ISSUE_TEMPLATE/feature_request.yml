@@ -5,7 +5,7 @@ labels: [feature-request, triage-required]
 body:
 - type: checkboxes
   attributes:
-    label:  Before Logging a feature request
+    label:  Before logging a feature request please confirm the following
     options:
     - label: I have searched in this repository's issues to see if it has already been reported.
       required: true
@@ -36,7 +36,7 @@ body:
 
 - type: textarea
   attributes:
-    label: Additional implementation details or code snippet(s)
+    label: Additional implementation details or code snippets
     description: Provide additional information about this task, implementation details or code snippets.
   validations:
     required: false
