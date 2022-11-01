@@ -1,6 +1,5 @@
 name: Bug report
 description: Create a bug report to help us improve. Use this template if you encountered an issue while integrating with or implementing the APIs of this SDK.
-title: "[Bug] <title>"
 labels: [bug, triage-required]
 
 body:
