@@ -1,6 +1,5 @@
 name: Project epic
 description: Create an internal epic that represents the top level parent of multiple tasks.
-title: "[Epic] <title>"
 labels: [epic, edgesquad]
 
 body:
