@@ -1,4 +1,4 @@
-name: Task
+name: Project task
 description: Create an internal task that can be completed as a standalone code change or is part of an epic.
 title: "[Task] <title>"
 labels: [task, edgesquad]
