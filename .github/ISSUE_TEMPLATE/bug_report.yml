@@ -5,7 +5,7 @@ labels: [bug, triage-required]
 body:
 - type: checkboxes
   attributes:
-    label:  Prerequisites
+    label:  Before logging a bug report please confirm the following
     description: Go through the items below before logging an issue.
     options:
     - label: I have searched in this repository's issues to see if it has already been reported.
