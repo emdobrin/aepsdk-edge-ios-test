@@ -1,0 +1,20 @@
+name: Blank issue
+labels: [task, edgesquad]
+
+body:
+- type: checkboxes
+  attributes:
+    label:  Before logging a bug report please confirm the following
+    description: Please refer to the main issue templates available [here](https://github.com/emdobrin/aepsdk-edge-ios-test/issues/new/choose). If none of the templates cover your request, go through the items below.
+    options:
+    - label: This is not a Security Disclosure, otherwise please follow the guidelines in [Security Policy](https://github.com/adobe/aepsdk-edge-ios/security/policy).
+      required: true
+    - label: I have searched in this repository's issues to see if it has already been reported.
+      required: true
+      
+ - type: textarea
+  attributes:
+    label: Summary
+    description: Please provide a summary of the issue you are reporting.
+  validations:
+    required: true
